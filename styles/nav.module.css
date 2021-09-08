@@ -1,0 +1,105 @@
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px -5px black;
+  margin: 12px 0.6rem;
+  z-index: 1000000 !important;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.companyBrand {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 10px;
+  /* border: 1px solid; */
+}
+.companyLogo {
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+.companyName {
+  display: flex;
+  align-self: flex-end;
+  margin: 0;
+  margin-left: 0.3rem;
+  font-weight: bold;
+}
+.companyServicesAndProfilPic,
+.companyServices {
+  display: none;
+  align-items: center;
+  margin: 10px;
+  font-weight: bold;
+}
+.companyServicesAndProfilPic {
+  margin: 0px;
+  display: flex;
+}
+.companyServices > div {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+.companyServices > div > a {
+  padding: 0.5rem;
+}
+.companyServices > div > a:hover {
+  color: #fd7e14;
+  border-bottom: 2px solid;
+}
+.profilPicture {
+  box-shadow: 0 0 5px black;
+  background-image: url("../public/profilePicture/profile_pic.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 47.5px;
+  height: 50px;
+  border-radius: 1rem;
+}
+.moreButton {
+  padding-right: 2rem;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .nav {
+    margin: 12px 1rem;
+    /* background-color: rgba(255, 155, 55, 0.25); */
+    width: 95%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .nav {
+    /* background-color: rgba(255, 155, 55, 0.5); */
+    width: 96%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .companyServices {
+    display: flex;
+  }
+  .moreButton {
+    display: none;
+  }
+  .nav {
+    /* background-color: rgba(255, 155, 55, 0.75); */
+    width: 97%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .nav {
+    /* background-color: rgba(255, 155, 55, 1); */
+    width: 98%;
+  }
+}

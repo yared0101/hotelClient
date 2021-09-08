@@ -1,0 +1,18 @@
+.main {
+    background-color: rgba(253, 126, 20, 0.2);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.logoStyle {
+    text-align: center;
+    margin: auto;
+}
+.textCenter {
+    text-align: center;
+}
+.borderBottom {
+    border-bottom: 1px black solid;
+}
+.bottomTitle {
+    margin-left: 1rem;
+}

@@ -1,0 +1,155 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+.textPart {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+}
+.textPart > h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+  color: #3c3538;
+  overflow: visible;
+  overflow-wrap: break-word;
+}
+.textPart > h1 {
+  color: #fd7e14;
+  font-size: 3.3rem;
+  font-weight: 900;
+}
+.description,
+.priceAndOrder > div,
+.rate,
+.priceAndOrder {
+  display: flex;
+  align-items: center;
+}
+.priceAndOrder {
+  justify-content: space-between;
+  align-items: center;
+}
+.rate {
+  margin-bottom: 4rem;
+  margin-right: 0.7rem !important;
+}
+.rate > * {
+  color: #fd7e14;
+  font-size: 1.8rem;
+}
+.description {
+  margin-bottom: 1rem;
+}
+.description {
+  align-items: flex-end;
+}
+.description > span {
+  margin-top: 0.25rem;
+}
+.description > div {
+  color: #6c757d;
+}
+.price {
+  display: flex;
+  align-items: baseline !important;
+  font-weight: bold;
+}
+.priceNumber {
+  color: #fd7e14;
+  font-size: 2.2rem;
+}
+.priceCurrency {
+  margin-left: 0.4rem;
+  color: #6c757d;
+}
+.orderButton {
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: white;
+  border: 1px solid #fd7e14;
+  border-radius: 1rem;
+  color: #fd7e14;
+  padding: 0.6rem 2rem;
+}
+.orderButton:hover {
+  background-color: #fd7e14;
+  color: white;
+}
+.icon {
+  margin-right: 0.7rem !important;
+}
+.icon > * {
+  font-size: 1.8rem;
+}
+.imagePart {
+  display: none;
+}
+.preAndNex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: auto;
+}
+.preAndNex > span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.preAndNex > button {
+  background-color: white;
+  color: #fd7e14;
+  border: 1px #fd7e14 solid;
+  border-radius: 1rem;
+}
+.preAndNex > button:hover {
+  background-color: #fd7e14;
+  color: white;
+}
+@media only screen and (min-width: 600px) {
+  .preAndNex,
+  .textPart,
+  .imagePart {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .textPart,
+  .imagePart {
+    max-width: 40%;
+  }
+  .imagePart {
+    display: block;
+  }
+  .secondaryImagePart {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .textPart,
+  .imagePart {
+    max-width: 470px;
+  }
+  .preAndNex {
+    max-width: 940px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .textPart,
+  .imagePart {
+    max-width: 570px;
+  }
+  .preAndNex {
+    max-width: 1140px;
+  }
+}

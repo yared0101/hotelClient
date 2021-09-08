@@ -1,0 +1,146 @@
+.home {
+    width: 100%;
+}
+.myLink {
+    text-decoration: none;
+}
+.contentStyle {
+    height: 90vh;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex !important;
+    align-items: flex-end;
+}
+.imageBgDiv {
+    background-color: rgba(0, 0, 0, 0);
+    height: 40vh;
+}
+.imageBgCol {
+    background-image: linear-gradient(
+        to 330deg,
+        rgba(253, 126, 20, 0.3) 80%,
+        transparent 80%
+    );
+    font-size: 50px;
+    color: white;
+}
+.imageBgPcText {
+    font-weight: bold;
+}
+.imageBgPhoneText {
+    font-weight: bold;
+    font-size: 30px;
+}
+.bgImagePpt {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.textDiv {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.7) 44%,
+        rgba(0, 0, 0, 0.15) 100%
+    );
+}
+.textDiv * {
+    color: white;
+}
+.textDiv h1 {
+    font-weight: bold;
+}
+.pets {
+    background-image: url("../public/images/pets.jpg");
+}
+.rooms {
+    background-image: url("../public/images/rooms.jpg");
+}
+.location {
+    background-image: url("../public/images/location.jpg");
+}
+.cozy {
+    background-image: url("../public/images/cozy.jpg");
+}
+.services1 {
+    background-image: url("../public/images/services1.jpg");
+    height: 300px;
+}
+.services2 {
+    background-image: url("../public/images/services2.jpg");
+    height: 300px;
+}
+.services3 {
+    background-image: url("../public/images/services3.jpg");
+    height: 300px;
+}
+.services4 {
+    background-image: url("../public/images/services4.jpg");
+    height: 300px;
+}
+.oceanView {
+    height: 400px;
+    background-image: url("../public/images/ocean_view.jpg");
+}
+.lgSecondDiv > div > div {
+    margin-left: 20px;
+}
+.lgSecondDiv > div h1 {
+    font-weight: bold;
+}
+.iconViewer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bgColorWhite {
+    background-color: white;
+}
+.borderRadiusTop {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.borderRadiusBottom {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.iconView {
+    width: 8vw;
+    height: 8vw;
+    font-size: 4vw !important;
+    background-color: rgba(253, 126, 20, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.iconViewSmall {
+    width: 18vw;
+    height: 18vw;
+    font-size: 10vw !important;
+}
+.absoluteBackground {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../public/images/homebg.jpg");
+    z-index: -1000;
+}
+.textAlignCenter {
+    text-align: center !important;
+}
+.hotel1 {
+    background-image: url("../public/images/hotel1.jpg");
+}
+.hotel2 {
+    background-image: url("../public/images/hotel2.jpg");
+}
+.hotel3 {
+    background-image: url("../public/images/hotel3.jpg");
+}
+.hotel4 {
+    background-image: url("../public/images/hotel4.jpg");
+}

@@ -1,0 +1,116 @@
+.aln-cntr {
+    text-align: center;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+.gBookInfo {
+    padding: 5px;
+}
+.gBookInfo > div {
+    display: inline-block;
+    text-align: left;
+}
+.gBookDropdownBox {
+    background-color: var(--theme-bg);
+    padding: 10px;
+    box-shadow: 0 0 5px -2px var(--theme-fg);
+}
+
+.ant-collapse * {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.ant-collapse span {
+    padding-right: 5px !important;
+}
+
+
+.mrg-sml {
+    margin: 5px;
+}
+.mrg-big {
+    margin: 25px;
+}
+.mrg-big-v {
+    margin: 25px 0;
+}
+
+
+.pd {
+    padding: 5px;
+}
+.pd-hor {
+    padding: 0 5px;
+}
+
+
+.roomDisp {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    text-align: left;
+    padding: 10px;
+	width: 30%;
+    border-radius: 10px;
+    border: 1px solid var(--theme-clr2);
+}
+.roomDisp > .imgCont {
+    position: relative;
+    font-size: 0;
+}
+.roomDisp > .imgCont > .avs {
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+    right: 0;
+    padding: 6px;
+    background-color: var(--theme-clr1);
+    color: var(--theme-bg);
+}
+.roomDisp > .imgCont > div {
+    display: none;
+}
+.roomDisp > .imgCont > div:first-child {
+    display: block;
+}
+.roomDisp > div > h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.roomDisp > div > small {
+    display: inline-block;
+}
+.roomDisp > .descr > div {
+    padding: 5px;
+}
+.roomDisp > .descr .ant-btn:hover {
+    color: white;
+    background-color: var(--theme-clr1);
+}
+.roomDisp > .descr .ant-btn {
+    flex-grow: 1;
+    border: 1px solid var(--theme-clr1);
+    background-color: transparent;
+    color: var(--theme-clr1);
+}
+.roomDisp > .descr .detail * {
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

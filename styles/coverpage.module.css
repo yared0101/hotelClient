@@ -1,0 +1,44 @@
+.coverPage {
+    background-image: url("../public/coverPage.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.coverPage h1,
+.coverPage h2 {
+}
+.subText {
+    color: white;
+}
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.colStyle {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 11%,
+        rgba(0, 0, 0, 0.7) 44%,
+        rgba(0, 0, 0, 0.15) 89%
+    );
+    border-radius: 1rem;
+}
+.circleButton * {
+    line-height: 0 !important;
+    font-size: 3rem;
+}
+.circleButton {
+    height: auto;
+    border-radius: 10rem !important;
+    border: none !important;
+    width: fit-content !important;
+    padding: 16px !important;
+    padding-left: 20px !important;
+}
